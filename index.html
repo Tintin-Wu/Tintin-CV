@@ -27,6 +27,7 @@
       <a href="https://github.com/Tintin-Wu" target="_blank" rel="noopener" class="icon-link">GitHub</a>
       <a href="https://www.linkedin.com/in/tintin-wu-431780167" target="_blank" rel="noopener" class="icon-link">LinkedIn</a>
       <a href="mailto:tintinwu1999@gmail.com" class="icon-link">Email</a>
+      <a href="assets/tintin-cv.pdf" download="Tintin-Wu-CV.pdf" aria-label="Download CV" class="icon-link">↓ CV</a>
     </div>
   </nav>
 
@@ -50,6 +51,7 @@
           <div class="stat"><span class="stat-value">3+</span><span class="stat-label">Years</span></div>
         </div>
         <div class="hero-links">
+          <a href="assets/tintin-cv.pdf" download="Tintin-Wu-CV.pdf" class="hero-btn">Download CV</a>
           <a href="https://github.com/Tintin-Wu" target="_blank" rel="noopener" class="hero-btn">GitHub</a>
           <a href="https://www.linkedin.com/in/tintin-wu-431780167" target="_blank" rel="noopener" class="hero-btn secondary">LinkedIn</a>
           <a href="mailto:tintinwu1999@gmail.com" class="hero-btn secondary">Email</a>
@@ -71,9 +73,10 @@
             </div>
             <div class="timeline-role">AI Software Engineer</div>
             <ul class="timeline-bullets">
-              <li>Multi-Modal Agentic AI System (MCP, ADK, A2A, LangGraph, LangSmith)</li>
-              <li>InfraBot: universal multi-agent orchestration across HTTP/A2A/chatroom platforms</li>
-              <li>Agent-Runtime: internal agent factory for instant AI agent deployment; Opik tracing observability</li>
+              <li>Designing multi-modal agentic AI systems integrating MCP, ADK, A2A, LangGraph, and LangSmith</li>
+              <li>Built InfraBot — universal orchestration layer connecting multi-agent pipelines across HTTP, A2A, and internal chatroom platforms</li>
+              <li>Launched Agent-Runtime, an internal platform for on-demand AI agent deployment</li>
+              <li>Enhanced OpenClaw observability by integrating Opik tracing — built span-tree tracking relationships across main agents, sub-agents, and tool calls</li>
             </ul>
           </div>
         </div>
@@ -87,9 +90,9 @@
             </div>
             <div class="timeline-role">Associate Researcher, Agentic AI Team Leader</div>
             <ul class="timeline-bullets">
-              <li>LLM/VLM training and deployment (PyTorch, HuggingFace, vLLM)</li>
-              <li>MCP-based Agentic AI System; AutoGen and LangGraph pipelines</li>
-              <li>Built Agentic AI ecosystem and Office Automation tooling within Delta Electronics</li>
+              <li>Led LLM/VLM fine-tuning and production deployment pipeline (PyTorch, HuggingFace, vLLM)</li>
+              <li>Architected MCP-based agentic AI systems with AutoGen and LangGraph orchestration</li>
+              <li>Bootstrapped the company's agentic AI ecosystem and Office Automation tooling from the ground up</li>
             </ul>
           </div>
         </div>
@@ -103,7 +106,7 @@
             </div>
             <div class="timeline-role">Research Assistant</div>
             <ul class="timeline-bullets">
-              <li>3D Gaussian Splatting and 4D real-time dynamic scene rendering research</li>
+              <li>Researched 4D real-time dynamic scene rendering with 3D Gaussian Splatting — culminating in ICIP 2026 publication</li>
             </ul>
           </div>
         </div>
@@ -117,7 +120,7 @@
             </div>
             <div class="timeline-role">Machine Learning Engineer</div>
             <ul class="timeline-bullets">
-              <li>eKYC: Computer Vision and Deep Learning for face and ID Card recognition</li>
+              <li>Shipped production eKYC pipeline — CV/DL system for face verification and ID card recognition</li>
             </ul>
           </div>
         </div>
@@ -202,10 +205,17 @@
           <div class="project-tags">
             <span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">CUDA</span>
           </div>
+          <div class="project-links">
+            <a href="https://arxiv.org/abs/2511.00560" target="_blank" rel="noopener" class="project-link">arXiv ↗</a>
+            <a href="https://tintin-wu.github.io/4d-neural-voxel-splatting/" target="_blank" rel="noopener" class="project-link">Project Page ↗</a>
+          </div>
         </div>
 
         <div class="project-card" data-category="3dcv">
-          <h3 class="project-title">4D Surface Reconstruction</h3>
+          <div class="project-title-row">
+            <h3 class="project-title">4D Surface Reconstruction</h3>
+            <span class="project-private-badge">PRIVATE</span>
+          </div>
           <p class="project-desc">Neural SDF + Gaussian Splatting fusion. Depth maps and ray tracing for dynamic surface reconstruction with dual-branch mutual supervision.</p>
           <div class="project-tags">
             <span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">CUDA</span>
@@ -213,7 +223,10 @@
         </div>
 
         <div class="project-card" data-category="3dcv">
-          <h3 class="project-title">3D Gaussian Splatting Surface &amp; Mesh</h3>
+          <div class="project-title-row">
+            <h3 class="project-title">3D Gaussian Splatting Surface &amp; Mesh</h3>
+            <span class="project-private-badge">PRIVATE</span>
+          </div>
           <p class="project-desc">SDF-Head + RGB-Head dual branch training for 3D geometry reconstruction and mesh extraction from Gaussian Splattings.</p>
           <div class="project-tags">
             <span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">CUDA</span>
@@ -221,7 +234,10 @@
         </div>
 
         <div class="project-card" data-category="3dcv">
-          <h3 class="project-title">Semantic Scene Completion</h3>
+          <div class="project-title-row">
+            <h3 class="project-title">Semantic Scene Completion</h3>
+            <span class="project-private-badge">PRIVATE</span>
+          </div>
           <p class="project-desc">Scene-Instance-Scene method on semanticKITTI 3D outdoor point clouds with panoptic segmentation and instance completion.</p>
           <div class="project-tags">
             <span class="tag">Python</span><span class="tag">PyTorch</span>
@@ -229,7 +245,10 @@
         </div>
 
         <div class="project-card hidden" data-category="2dcv">
-          <h3 class="project-title">Face Presentation Attack Detection</h3>
+          <div class="project-title-row">
+            <h3 class="project-title">Face Presentation Attack Detection</h3>
+            <span class="project-private-badge">PRIVATE</span>
+          </div>
           <p class="project-desc">SwinV2-s + EfficientNet-s + RegNet ensemble with multi-head classifier. 99.97% accuracy on Celeb-A Spoof dataset.</p>
           <div class="project-tags">
             <span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">OpenCV</span>
@@ -237,7 +256,10 @@
         </div>
 
         <div class="project-card hidden" data-category="2dcv">
-          <h3 class="project-title">One Class Fake ID Detection</h3>
+          <div class="project-title-row">
+            <h3 class="project-title">One Class Fake ID Detection</h3>
+            <span class="project-private-badge">PRIVATE</span>
+          </div>
           <p class="project-desc">Fake ID detection trained only on real IDs. Uses Segment Anything Model for synthetic fake generation.</p>
           <div class="project-tags">
             <span class="tag">Python</span><span class="tag">PyTorch</span><span class="tag">HuggingFace</span>
@@ -245,7 +267,10 @@
         </div>
 
         <div class="project-card hidden" data-category="2dcv">
-          <h3 class="project-title">Anti-Counterfeiting Label Detection</h3>
+          <div class="project-title-row">
+            <h3 class="project-title">Anti-Counterfeiting Label Detection</h3>
+            <span class="project-private-badge">PRIVATE</span>
+          </div>
           <p class="project-desc">Hologram detection on National ID Cards via Hue distribution analysis from video input.</p>
           <div class="project-tags">
             <span class="tag">Python</span><span class="tag">OpenCV</span>
@@ -253,7 +278,10 @@
         </div>
 
         <div class="project-card hidden" data-category="2dcv">
-          <h3 class="project-title">Light Weight Face Detection</h3>
+          <div class="project-title-row">
+            <h3 class="project-title">Light Weight Face Detection</h3>
+            <span class="project-private-badge">PRIVATE</span>
+          </div>
           <p class="project-desc">Inverted Residual + FPN + SSH + DCN architecture. Precision 80.82, NME 6.25, model size under 5MB.</p>
           <div class="project-tags">
             <span class="tag">Python</span><span class="tag">PyTorch</span>
@@ -261,7 +289,10 @@
         </div>
 
         <div class="project-card hidden" data-category="2dcv">
-          <h3 class="project-title">Face Anti-Spoofing</h3>
+          <div class="project-title-row">
+            <h3 class="project-title">Face Anti-Spoofing</h3>
+            <span class="project-private-badge">PRIVATE</span>
+          </div>
           <p class="project-desc">MobileNetV2 + Bidirectional LSTM on 11-frame sequences. 99.3% accuracy on Oulu-NPU and SiW datasets.</p>
           <div class="project-tags">
             <span class="tag">Python</span><span class="tag">PyTorch</span>
@@ -269,7 +300,10 @@
         </div>
 
         <div class="project-card hidden" data-category="side">
-          <h3 class="project-title">Peng-Hu VR Project</h3>
+          <div class="project-title-row">
+            <h3 class="project-title">Peng-Hu VR Project</h3>
+            <span class="project-private-badge">PRIVATE</span>
+          </div>
           <p class="project-desc">VR first-person shooter set in Peng-Hu. Google Cardboard, 15-min game with custom 3D island and lava models.</p>
           <div class="project-tags">
             <span class="tag">Unity</span><span class="tag">C#</span><span class="tag">Android Studio</span>
