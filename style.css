@@ -540,3 +540,27 @@ a { color: inherit; }
 }
 
 .project-link:hover { text-decoration: underline; }
+
+/* ── Project private badge ── */
+.project-title-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 8px;
+  margin-bottom: 6px;
+}
+
+.project-title-row .project-title { margin-bottom: 0; }
+
+.project-private-badge {
+  background: rgba(139, 148, 158, 0.1);
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 9px;
+  font-weight: 700;
+  padding: 2px 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+  letter-spacing: 0.4px;
+  flex-shrink: 0;
+}
