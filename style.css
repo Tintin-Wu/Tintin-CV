@@ -523,3 +523,20 @@ a { color: inherit; }
 
   .hero-stats { gap: 20px; }
 }
+
+/* ── Project links ── */
+.project-links {
+  display: flex;
+  gap: 12px;
+  padding-top: 10px;
+  border-top: 1px solid var(--border);
+  margin-top: 2px;
+}
+
+.project-link {
+  font-size: 11px;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.project-link:hover { text-decoration: underline; }
