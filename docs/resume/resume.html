@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Tintin Wu Resume</title>
+<style>
+  @page { size: A4; margin: 40pt 42pt 40pt 42pt; }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "Helvetica Neue", Helvetica, Arial, "Liberation Sans", sans-serif;
+    font-size: 9.6pt; line-height: 1.3; color: #111;
+    -webkit-print-color-adjust: exact; print-color-adjust: exact;
+  }
+  .header { text-align: center; margin-bottom: 4pt; }
+  .name { font-size: 19pt; font-weight: 700; color: #1F3864; margin: 0 0 4pt; line-height: 1.2; }
+  .contact { font-size: 9.5pt; margin: 0; line-height: 1.35; }
+  h2 {
+    font-size: 11.5pt; font-weight: 700; color: #1F3864; letter-spacing: 0.5pt;
+    text-transform: uppercase; margin: 10pt 0 5pt; padding-bottom: 2pt;
+    border-bottom: 1px solid #1F3864; break-after: avoid;
+  }
+  p { margin: 0 0 4pt; }
+  ul { margin: 0 0 4pt; padding-left: 16pt; }
+  li { margin: 0 0 2pt; padding-left: 0; }
+  .job { margin-top: 6pt; }
+  .job:first-of-type { margin-top: 0; }
+  .job-title { font-size: 10.5pt; font-weight: 700; margin: 0; break-after: avoid; }
+  .job-dates { font-style: italic; color: #444; margin: 0 0 3pt; break-after: avoid; }
+  .edu { margin-bottom: 6pt; }
+  .edu p { margin: 0; }
+  b { font-weight: 700; }
+  i { font-style: italic; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <p class="name">Tintin Wu (Chun-Tin Wu)</p>
+  <p class="contact">Taipei, Taiwan | +886 925-355-829 | tintinwu1999@gmail.com</p>
+  <p class="contact">LinkedIn: linkedin.com/in/tintin-wu-431780167 | GitHub: github.com/Tintin-Wu</p>
+</div>
+
+<h2>Summary</h2>
+<p>AI Software Engineer with 3+ years of experience building production-grade AI systems across agentic AI, multi-modal LLM/VLM, and computer vision. Currently building an agent platform at whaleforceAI for easy deployment of multiple agent harnesses, including the Codex SDK and DeepSeek harnesses, on top of prior multi-agent orchestration work at Binance using Model Context Protocol (MCP), Agent Development Kit (ADK), and Agent2Agent (A2A) protocols. Published researcher in 3D/4D scene rendering (IEEE ICIP) and AI agent tool calling (EACL Findings), with a track record of leading technical teams and shipping AI solutions from research to deployment.</p>
+
+<h2>Skills</h2>
+<ul>
+  <li><b>Programming:</b> Python, C#, CUDA</li>
+  <li><b>AI / ML Frameworks:</b> PyTorch, Hugging Face, vLLM, OpenCV, Scikit-learn</li>
+  <li><b>Agentic AI:</b> Model Context Protocol (MCP), Agent Development Kit (ADK), Agent2Agent (A2A), Codex SDK, DeepSeek, LangGraph, LangSmith, AutoGen, NVIDIA NeMo Agent Toolkit, Opik</li>
+  <li><b>Domains:</b> Multi-agent orchestration, agent harness deployment, LLM/VLM training and deployment, 3D/4D Gaussian Splatting, novel view synthesis, face recognition and anti-spoofing</li>
+  <li><b>Other Tools:</b> Unity, Android Studio, Git</li>
+</ul>
+
+<h2>Work Experience</h2>
+
+<div class="job">
+  <p class="job-title">AI Software Engineer &mdash; whaleforceAI</p>
+  <p class="job-dates">Aug 2026 &ndash; Present</p>
+  <ul>
+    <li>Building an agent platform for easy deployment of multiple agent harnesses, including the Codex SDK and DeepSeek harnesses, so teams can launch and operate agents through a single interface.</li>
+    <li>Designing the harness abstraction layer that lets new agent runtimes be onboarded and deployed on demand, without per-harness integration work for each new model or SDK.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <p class="job-title">AI Software Engineer &mdash; Binance</p>
+  <p class="job-dates">Sep 2025 &ndash; Aug 2026</p>
+  <ul>
+    <li>Built InfraBot, a universal multi-agent orchestration system that unifies HTTP/HTTPS APIs, Agent2Agent (A2A) endpoints, and internal chatroom platforms, enabling previously siloed services to interoperate through a single agent network.</li>
+    <li>Designed the sub-agent architecture and orchestration layer for a multi-modal agentic AI system, by building on Agent Development Kit (ADK), A2A, LangGraph, and LangSmith.</li>
+    <li>Launched Agent-Runtime, an internal agent factory that turns AI agent deployment from manual setup into an instant, self-service process.</li>
+    <li>Made OpenClaw agent runs traceable end-to-end, by introducing Opik tracing with a span-tree structure that binds main agents, sub-agents, and tool calls in every run.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <p class="job-title">Associate Researcher, Agentic AI Team Leader &mdash; Delta Electronics</p>
+  <p class="job-dates">Nov 2024 &ndash; Sep 2025</p>
+  <ul>
+    <li>Led the Agentic AI team to design and ship a Model Context Protocol (MCP)-based agentic AI ecosystem adopted within Delta Electronics, by architecting the system on MCP, ADK, A2A, NVIDIA NeMo Agent Toolkit, AutoGen, and LangGraph.</li>
+    <li>Trained and deployed large language models (LLM) and vision-language models (VLM) into production, using Python, PyTorch, Hugging Face, and vLLM.</li>
+    <li>Automated office workflows company-wide, by delivering LLM-agent-powered automation built on the team&rsquo;s agentic AI ecosystem.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <p class="job-title">Research Assistant &mdash; Research Center for Information Technology Innovation, Academia Sinica</p>
+  <p class="job-dates">Jul 2024 &ndash; Oct 2024</p>
+  <ul>
+    <li>Achieved state-of-the-art dynamic scene rendering performance with lower memory consumption and faster training/inference than prior methods, by developing 4D Neural Voxel Splatting, which encodes 3D Gaussians with neural voxels and reinforces Gaussian deformation with K-Plane modules; published at IEEE ICIP 2026.</li>
+    <li>Delivered photorealistic novel view synthesis with real-time rendering, rapid convergence, and low computational cost on dynamic scenes, using Python, PyTorch, and custom CUDA kernels.</li>
+    <li>Reconstructed surfaces from dynamic scenes, by introducing Signed Distance Functions (SDF) into 4D Gaussian Splatting, combining Gaussian-rendered depth maps with ray tracing, and applying mutual supervision between RGB and SDF branches in a dual-branch architecture.</li>
+    <li>Extracted 3D geometry and meshes from static scenes, by training a dual-branch SDF-head/RGB-head architecture on top of 3D Gaussian Splatting.</li>
+  </ul>
+</div>
+
+<div class="job">
+  <p class="job-title">Machine Learning Engineer &mdash; Taiwan Mobile</p>
+  <p class="job-dates">Sep 2022 &ndash; Jul 2023</p>
+  <ul>
+    <li>Delivered face and ID-card recognition models for the company&rsquo;s eKYC (electronic Know Your Customer) product, by applying computer vision and deep learning methods to identity verification.</li>
+    <li>Achieved 99.97% accuracy on the CelebA-Spoof dataset for face presentation attack detection, by ensembling SwinV2, EfficientNet, and RegNet backbones with a multi-head classifier and cross-validation.</li>
+    <li>Detected fake ID cards while training on genuine samples only, by building a one-class detection pipeline that generates synthetic fakes with the Segment Anything Model (SAM) through face mix-matching, combined with cross-validated model ensembles to prevent overfitting.</li>
+    <li>Verified anti-counterfeiting holograms on national ID cards from video input, by analyzing hue distributions across frames with guided capture instructions and threshold-based classification (Python, OpenCV).</li>
+  </ul>
+</div>
+
+<h2>Education</h2>
+<div class="edu">
+  <p><b>M.S., Communication Engineering &mdash; National Taiwan University</b> | Mar 2023 &ndash; Jul 2024</p>
+  <p>Graduate Student Researcher, Research Center for Information Technology Innovation, Academia Sinica (advisor: Prof. Jun-Cheng Chen). Coursework: Artificial Intelligence, Machine Learning, Generative AI, Trustworthy AI.</p>
+</div>
+<div class="edu">
+  <p><b>B.S., Electrical Engineering &mdash; National Taiwan University</b> | Sep 2018 &ndash; Jun 2022</p>
+  <p>Undergraduate Research Fellow, Vision and Learning Lab (advisor: Prof. Yu-Chiang Frank Wang). Coursework: Computer Vision, Deep Learning.</p>
+</div>
+
+<h2>Publications</h2>
+<ul>
+  <li>Chun-Tin Wu, Jun-Cheng Chen. &ldquo;4D Neural Voxel Splatting: Dynamic Scene Rendering with Voxelized Gaussian Splatting.&rdquo; <i>IEEE International Conference on Image Processing (ICIP)</i>, 2026. arXiv:2511.00560</li>
+  <li>Jia-Kai Dong, I-Wei Huang, Chun-Tin Wu, Yi-Tien Tsai. &ldquo;MSC-Bench: A Rigorous Benchmark for Multi-Server Tool Orchestration.&rdquo; <i>Findings of the Association for Computational Linguistics (EACL)</i>, 2026.</li>
+</ul>
+
+<h2>Selected Projects</h2>
+<ul>
+  <li><b>Semantic Scene Completion</b> (Python, PyTorch): Improved semantic scene completion on 3D outdoor point clouds (SemanticKITTI), by designing a Scene-Instance-Scene pipeline that combines a compact scene-completion model for initialization, a panoptic segmentation model for instance proposals, and lightweight per-instance completion models to overcome dataset inconsistencies.</li>
+  <li><b>Lightweight Face Detection</b> (Python, PyTorch): Achieved 80.82 precision and 6.25 NME with a model under 5 MB, by combining inverted residuals, Feature Pyramid Network (FPN), Single Stage Headless detector (SSH), and Deformable Convolution Network (DCN).</li>
+  <li><b>Face Anti-Spoofing</b> (Python, PyTorch): Achieved 99.3% accuracy on the Oulu-NPU and SiW datasets, by pairing a MobileNetV2 backbone with a bidirectional LSTM over 11-frame video sequences.</li>
+  <li><b>Peng-Hu VR Project</b> (Unity, C#, Android Studio): Shipped a 15-minute VR first-person shooter set in the Peng-Hu islands on Google Cardboard, by building 3D models of the islands and terrain features within tight mobile-hardware constraints.</li>
+</ul>
+
+<h2>Additional</h2>
+<ul>
+  <li><b>Languages:</b> Mandarin Chinese (native), English (fluent, TOEIC 960)</li>
+  <li><b>Leadership:</b> Leader, Martial Arts School Team, National Taiwan University</li>
+</ul>
+
+</body>
+</html>
